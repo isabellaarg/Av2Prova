@@ -1,4 +1,4 @@
-# Prova AV@
+# Prova AV2
 
 ## Visão Geral
 Este é um projeto Spring Boot para uma API REST JWT (JSON Web Token). A aplicação permite o registro de usuários, login e fornece endpoints protegidos para usuários autenticados e administradores. Utiliza o MongoDB como banco de dados e JWT para autenticação e autorização.
