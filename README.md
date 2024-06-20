@@ -36,7 +36,7 @@ Corpo da Requisição:
   "role": "user",
   "email" : "teste@gmail.com"
 }
-![image](https://github.com/isabellaarg/Aaw/blob/main/JWT_RestAPI/JWT_RestAPI/assets%20aaw/Captura%20de%20tela%202024-06-16%20192218.png)
+![image](https://github.com/isabellaarg/Av2Prova/blob/main/assets%20aaw/assets2.png)
 
 ### Login de Usuário
 Login
@@ -49,7 +49,7 @@ Corpo da Requisição:
   "password": "exemploPassword"
 }
 
-![image](https://github.com/isabellaarg/Aaw/blob/main/JWT_RestAPI/JWT_RestAPI/assets%20aaw/Captura%20de%20tela%202024-06-16%20192343.png)
+![image](https://github.com/isabellaarg/Av2Prova/blob/main/assets%20aaw/assets3.png)
 
 ### Extrair Nome de Usuário do Token
 URL: /username/{token}
@@ -60,7 +60,6 @@ Resposta:
   "username": "exemploUser"
 }
 
-![image](https://github.com/isabellaarg/Aaw/blob/main/JWT_RestAPI/JWT_RestAPI/assets%20aaw/Captura%20de%20tela%202024-06-16%20192410.png)
 
 ### Endpoint de Admin
 URL: /admin
@@ -70,10 +69,39 @@ Cabeçalho: Authorization: Bearer {jwtToken}
 Resposta:
 {
   "username": "adminUser"
+  "password" : "testePassword"
 }
 
-![image](https://github.com/isabellaarg/Aaw/blob/main/JWT_RestAPI/JWT_RestAPI/assets%20aaw/Captura%20de%20tela%202024-06-17%20211610.png)
+### Endpoint de Customer
+URL: /customer/products
+Método: GET
+
+Resposta:
+{
+  "username": "customer"
+  "password" : "testePassword"
+}
+
+### Endpoint de Manager
+URL: /manager/products
+Método: GET
+
+Resposta:
+{
+  "username": "manager"
+  "password" : "testePassword"
+}
+
+### Endpoint de Seller
+URL: /seller/orders
+Método: GET
+
+Resposta:
+{
+  "username": "seller"
+  "password" : "testePassword"
+}
 
 
 ## Diagrama
-![image](https://github.com/isabellaarg/Aaw/blob/main/JWT_RestAPI/JWT_RestAPI/assets%20aaw/Diagrama%20de%20arquitetura%20JWT%20rest%20api.png)
+![image](https://github.com/isabellaarg/Av2Prova/blob/main/assets%20aaw/Captura%20de%20tela%202024-06-20%20203507.png)
